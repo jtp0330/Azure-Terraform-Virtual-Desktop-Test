@@ -20,5 +20,7 @@ provider "azurerm" {
 }
 
 module "app" {
-  source = "./app"
+  source         = "./app"
+  admin_username = admin_username
+  admin_password = admin_password
 }
