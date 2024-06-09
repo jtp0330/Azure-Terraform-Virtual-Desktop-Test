@@ -41,7 +41,3 @@ resource "azurerm_linux_virtual_machine" "vdesktop-vm-linux-01" {
     storage_account_type = "Standard_LRS"
   }
 }
-
-module "network" {
-  source = "../network"
-}
